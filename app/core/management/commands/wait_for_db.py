@@ -3,7 +3,7 @@ Django management command to pause execution until database is available
 """
 import time
 
-from psycoph2 import OperationalError as Psycopg2OpError
+from psycopg2 import OperationalError as Psycopg2OpError
 
 from django.db.utils import OperationalError
 from django.core.management.base import BaseCommand
